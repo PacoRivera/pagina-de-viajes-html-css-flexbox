@@ -1,0 +1,54 @@
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60rem;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(125, 204, 245, 0.5);
+}
+.video__objet{
+    z-index: -1;
+    position: inherit;
+    min-width: 100%; 
+    min-height: 100%;
+}
+.video__text{
+    text-align: center;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+.video__btn{
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.eslogan{
+    font-family: 'Sriracha', cursive;
+    font-size: 13em;
+}
+.eslogan__parrafo{
+    font-family: 'Timmana', sans-serif;
+}
+
+@media (max-width: 400px) {
+    .video{
+        height: 20rem;
+    }
+    .eslogan{
+        font-size: 5em;
+    }
+    .video__text{
+        padding: 0;
+    }
+    .video__btn{
+        width: 5em;
+    }
+  }
