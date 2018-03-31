@@ -7,15 +7,14 @@
     overflow: hidden;
     background-color: rgba(125, 204, 245, 0.5);
 }
-.video__objet{
-    z-index: -1;
-    position: inherit;
-    min-width: 100%; 
-    min-height: 100%;
+.video__container{
+    position: absolute;
+    z-index: 2;
 }
 .video__text{
+    position: absolute;
+    z-index: 3;
     text-align: center;
-    position: fixed;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     width: 100%;

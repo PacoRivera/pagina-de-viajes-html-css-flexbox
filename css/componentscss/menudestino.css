@@ -1,12 +1,43 @@
 .contenedor-menuDestinos{
-    
+    background-color:#ffffff;
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .menuDestino{
-
+    text-align: center;
+    width: 15%;
+    height: 8rem;
+    border: rgba(125, 204, 245, 0.8) 1px solid;
+    box-shadow: 0 0 6px 3px rgba(0,0,0,0.2);
+    margin-bottom: 2rem;
+}
+.menuDestino:hover{
+    border: #337ab7 1px solid;
 }
 .menuDestino__titulo{
+    height: 50%;
+    background-color: rgba(125, 204, 245, 1);
 
 }
 .menuDestino__descripcion{
-
+  color: black;
 }
+
+.menuDestino__titulo,
+.menuDestino__descripcion{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 400px) {
+    .menuDestino{
+      width: 60%;
+    }
+  }
