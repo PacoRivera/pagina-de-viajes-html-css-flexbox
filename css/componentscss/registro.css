@@ -1,0 +1,112 @@
+.contenedor-registro{
+	display: flex;
+	width: 30vw;
+	position: fixed;
+	z-index: 5;
+	right: -100%;
+	margin-top: 13vh;
+}
+
+.contenedor-inputs {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1em;
+	background: #fff;
+	border-radius: 6px 6px 0 0;
+}
+
+.formularios__input {
+	width: 50%;
+	margin-bottom: 20px;
+	padding: 10px 8px;
+	border:none;
+	border-bottom: 2px solid #ccc;
+	font-family: 'Slabo 27px', serif;
+	font-size: 12px;
+}
+
+.formularios__input:focus{
+	border-bottom: 2px solid #246eb9;
+}
+
+.formulario input[type="radio"]{
+	display: none;
+}
+
+.sexo__inputs {
+	width: 100%;
+	display: flex;
+	flex-wrap:no-wrap;
+	justify-content:space-between;
+	margin-bottom: 20px;
+}
+
+.sexo__input--hombre {
+	border-radius: 3px 0 0 3px;
+}
+.sexo__input--mujer{
+	border-radius: 0 3px 3px 0;
+}
+
+.formulario .label-radio {
+	background: rgba(249,160,63,.4);
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	width: 49.5%;
+}
+
+.formulario input[type="radio"]:checked + .label-radio {
+	background: #f9a03f;
+}
+
+.terminos {
+	width: 100%;
+	text-align: center;
+	color: #424242;
+}
+
+.formulario .terminos label {
+	margin-left: 10px;
+}
+
+
+.formulario .btn {
+	width: 100%;
+	text-align: center;
+	background: #246eb9;
+	color: #fff;
+	border:none;
+	display: block;
+	padding: 15px 10px;
+	cursor: pointer;
+	border-radius: 0 0 6px 6px;
+	font-family: 'Slabo 27px', serif;
+	font-size: 18px;
+}
+
+.formulario .btn:hover {
+	background: #4357ad;
+}
+
+.error {
+	width: 100%;
+    display: none;
+	margin-top: 20px;
+	border-radius: 3px;
+	background: #ce1818;
+	color: #fff;
+	padding: 15px 10px;
+	padding-left:40px; 
+}
+
+@media (max-width: 400px) {
+    .contenedor-registro{
+		display: flex;
+		width: 90%;
+		position: fixed;
+		z-index: 4;
+		right: -100%;
+		margin-top: 13vh;
+	}
+  }

@@ -1,8 +1,13 @@
+
 @import url('componentscss/reset.css');
 
 @import url('componentscss/menuHeader.css');
+@import url('componentscss/registro.css');
 @import url('componentscss/video.css');
 
 @import url('componentscss/menudestino.css');
+@import url('componentscss/destinos.css');
+@import url('componentscss/cards.css');
 
 @import url('componentscss/conocenos.css');
+@import url('componentscss/footer.css');

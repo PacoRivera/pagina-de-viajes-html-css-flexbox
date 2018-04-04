@@ -8,6 +8,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://i.icomoon.io/public/temp/88e7be6e66/UntitledProject/style.css">
   <link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Timmana" rel="stylesheet">
 </head>
@@ -16,62 +17,186 @@
   <div class="contenedor-header">
     <div class="menu">
 
-      <div class="menu__icono">
-        <img class="menu__icono__img" src="assets/iconoweb.png" alt="Logo">
-      </div>
-      <div class="menu__list">
-        <ul class="menu__list__ul">
-          <li>
-            <a class="menu__list_opcion " href="">Conocenos</a>
-          </li>
-          <li>
-            <a class="menu__list_opcion" href="">Destinos</a>
-          </li>
-          <li>
-            <a class="menu__list_opcion" href="">Contacto</a>
-          </li>
-          <li>
-            <a class="menu__list_opcion" href="">Perfil</a>
-          </li>
-        </ul>
-      </div>
+      	<header class="header">
+            <div class="menu__bar">
+              <a href="#" class="bt-menu"><span class="icon-menu"></span>Menu</a>
+            </div>
+         
+            <nav class="header__nav">
+              <ul class="header__nav__ul">
+                <li class="header__nav__ul__li"><a href="#"><span class="icon-home3"></span>Inicio</a></li>
+                <li class="header__nav__ul__li"><a href="#"><span class="icon-happy"></span>Conocenos</a></li>
+                <li class="header__nav__ul__li"><a href="#"><span class="icon-location2"></span>Destinos</a></li>
+                <li class="header__nav__ul__li"><a href="#"><span class="icon-mail"></span>Contactanos</a></li>
+                <li class=" header__nav__ul__li header__nav__ul__li__perfil"><a href="#"><span class="icon-user"></span>Mi perfil</a></li>
+                <li class=" header__nav__ul__li header__nav__ul__li__perfil" id="registrarme"><a href="#">Registrarme</a></li>
+              </ul>
+            </nav>
+          </header>
     </div>
+
+    <div class="contenedor-registro">
+        
+      <div class="cont__form">
+        <form action="" class="formulario" id="formulario" name="formulario">
+            <div class="contenedor-inputs">
+              <input class="formularios__input" type="text" name="nombre" placeholder="Nombre">
+              <input class="formularios__input"  type="email" name="correo" placeholder="Correo">
+              <input class="formularios__input" type="password" name="contraseña" placeholder="Contraseña">
+              <input class="formularios__input" type="password" name="confirmContraseña" placeholder="Confirma Contraseña">
+      
+              <div class="sexo__inputs">
+                <input class="sexo__input--hombre"type="radio" name="sexo" id="hombre" value="hombre">
+                <label class="label-radio hombre" for="hombre">Hombre</label>
+      
+                <input  class="sexo__input--mujer" type="radio" name="sexo" id="mujer" value="mujer">
+                <label class="label-radio mujer" for="mujer">Mujer</label>
+              </div>
+      
+              <div class="terminos">
+                <input class="terminos__input" type="checkbox" name="terminos" id="terminos">
+                <label for="terminos">Acepto Terminos y Condiciones</label>
+
+                <ul class="error" id="error"></ul>
+              </div>
+    
+              
+
+              
+            </div>
+            
+              
+            <input type="submit" class="btn" value="Registrate">
+            
+          </form>
+        </div>
+       
+    </div>
+    
     <div class="video">
       <video autoplay muted loop class="video__objet">
         <source src="assets/video_travel.mp4" type="video/mp4">
       </video>
       <div class="video__text">
-          <h1 class="eslogan">Viaja</h1>
-          <h3 class="eslogan__parrafo">Descubre Lugares Maravillosos</h3>
-          <button class="video__btn">Ofertas</button>
-        </div>
-    
+        <h1 class="eslogan">Viaja</h1>
+        <h3 class="eslogan__parrafo">Descubre Lugares Maravillosos</h3>
+        <button class="video__btn">Ofertas</button>
+      </div>
+
     </div>
   </div>
 
   <div class="contenedor-menuDestinos">
     <div class="menuDestino">
-      <div class="menuDestino__titulo">Sol & Playa</div>
+
+      <div class="menuDestino__titulo  menu__destino__sol">Sol & Playa</div>
+
       <div class="menuDestino__descripcion">asdfasdfasdf</div>
     </div>
     <div class="menuDestino">
-      <div class="menuDestino__titulo">Natural & Exotico</div>
+      <div class="menuDestino__titulo  menu__destino__natural">Natural & Exotico</div>
       <div class="menuDestino__descripcion">asdfasdfasdf</div>
     </div>
     <div class="menuDestino">
-      <div class="menuDestino__titulo">Cultural & Historico</div>
+      <div class="menuDestino__titulo  menu__destino__cultural">Cultural & Historico</div>
       <div class="menuDestino__descripcion">asdfasdfasdf</div>
     </div>
     <div class="menuDestino">
-      <div class="menuDestino__titulo">Metropolitano</div>
+      <div class="menuDestino__titulo  menu__destino__metro">Metropolitano</div>
       <div class="menuDestino__descripcion">asdfasdfasdf</div>
     </div>
     <div class="menuDestino">
-      <div class="menuDestino__titulo">Mapa</div>
+      <div class="menuDestino__titulo  menu__destino__mapa">Mapa</div>
       <div class="menuDestino__descripcion">asdfasdfasdfasd</div>
     </div>
   </div>
 
+  <div class="contenedor-destinos">
+    <div class="destinos__tituloDescripcion">
+      <div class="tituloDescripcion__sol">
+        <h2 class="titulo__destinos">"Sol & Playa"</h2>
+        <p class="descripcion__destinos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos expedita optio fugit sit ullam perferendis neque a fuga sunt unde eaque laboriosam odio tempora et, esse accusamus commodi magnam libero.</p>
+      </div>
+    </div>
+    <!-- <div class="destinos__cards">
+      
+      <div class="contenedor-card " onclick="grow()">
+    
+        <div class="card__img">
+          <img src="assets/destino-img.jpg" alt="destino">
+        </div>
+      
+        <div class="card__informacion">
+          <div class="panel-group container__info__card" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default ">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Collapsible Group Item #1
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingTwo">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Collapsible Group Item #2
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Collapsible Group Item #3
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="contenedor-card">
+        <div class="card__img">
+          <img src="assets/destino-img.jpg" alt="destino">
+        </div>
+        <div class="card__informacion">
+          <h3 class="card__titulo">Madrid-España</h3>
+          <p class="card__descripcion">Conoce el lugar de tus sueños</p>
+        </div>
+      </div>
+
+      <div class="contenedor-card">
+        <div class="card__img">
+          <img src="assets/destino-img.jpg" alt="destino">
+        </div>
+        <div class="card__informacion">
+          <h3 class="card__titulo">Madrid-España</h3>
+          <p class="card__descripcion">Conoce el lugar de tus sueños</p>
+        </div>
+      </div>
+
+    </div> -->
+  </div>
 
   <div class="contenedor-conocenos">
     <div class="conocenos__contImg">
@@ -79,13 +204,59 @@
     </div>
     <div class="conocenos__descripcion">
       <div class="conocenos__descripcion__img">
-      <P class="conocenos__imgDescripcion__parrafo"> 
+        <P class="conocenos__imgDescripcion__parrafo">
           GeeksHubs Travels es una agencia de viajes online creada en 2009 por un equipo de viajeros entusiasta que deciden hacer de
-          su pasión por conocer el mundo un modo de vida. Desde nuestros inicios hemos diseñado mas de 500
-          viajes organizados a diferentes destinos de Europa, Norteamérica y Asia. Nuestro objetivo ahora es
-          ir ampliando horizontes poco a poco.
-      </P>
+          su pasión por conocer el mundo un modo de vida. Desde nuestros inicios hemos diseñado mas de 500 viajes organizados
+          a diferentes destinos de Europa, Norteamérica y Asia. Nuestro objetivo ahora es ir ampliando horizontes poco a
+          poco.
+        </P>
+      </div>
     </div>
+
+  </div>
+
+  <div class="contenedor-footer">
+      <div class="footer_subcripcion">
+          <p class="footer__contacto__informacion">
+              Subscribete
+            </p>
+            <p class="footer__anuncio">Recibe las noticias y promociones mas recientes!!</p>
+            <div class="footer__contInput">
+              <input class="footer__input" type="text" name="correo" id="correo">
+              <button class="footer__button" type="submit">Suscribirme</button>
+            </div>
+
+        </div>
+    <div class="footer__contacto">
+            <p class="footer__contacto__titulo"> 
+              ¿Necesitas Ayuda?
+            </p>
+            <p class="footer__contacto__parrafo">Llámanos: 026 4123 4567 <br/>O envíanos un correo a:</p>
+            <a  class="footer__correo__contacto" href="mailto:enquiry@geekshubstravels.com" target="_top">enquiry@geekshubstravels.com</a>
+
+    </div>
+    <div class="footer__informacion">
+            <p class="footer__contacto__informacion">
+              Información
+            </p>
+
+            <ul class="footer__list">
+              <li><a class="footer__list__li" href="">Quiénes somos...</a> </li>
+              <li><a class="footer__list__li" href="">Preguntas frecuentes</a> </li>
+              <li><a class="footer__list__li" href="">Política de Privacidad</a> </li>
+            </ul>
+            <ul class="footer__list">
+              <li><a class="footer__list__li" href="">Condiciones Generales</a> </li>
+              <li><a class="footer__list__li" href="">Aviso Legal</a> </li>
+              <li><a class="footer__list__li" href="">Contacto</a> </li>
+              <li><a class="footer__list__li" href="">Programa de Puntos</a> </li>
+            </ul>
+    
+    </div>
+    
+    <div class="footer__copyright">
+        <span class="glyphicon glyphicon-copyright-mark"></span> Copyright
+        <p class="lead text-center ">GeeksHubsTravels 2018</p>
     </div>
 
   </div>

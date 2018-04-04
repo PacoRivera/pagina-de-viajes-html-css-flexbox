@@ -1,0 +1,80 @@
+.contenedor-footer{
+   background-color:  rgba(51, 122, 183, 1);
+padding-top: 5rem;
+padding-bottom: 2rem;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+text-align: center;
+box-shadow: 0 0 6px 3px rgba(0,0,0,0.4);
+}
+.footer__contacto{
+width: 25%;
+border-left: 1px solid white;
+border-right: 1px solid white;
+}
+.footer__informacion{
+    width: 25%;
+}
+.footer_subcripcion{
+    width: 25%;
+}
+.footer__contacto__titulo,
+.footer__contacto__informacion{
+    font-family: 'Sriracha', cursive;
+    font-size: 2em;
+    color: white;
+}
+.footer__anuncio{
+    padding: 0.5em 1em 0 0.5em;
+    font-size: 1.2em;
+    color: white;
+}
+.footer__list{
+    list-style: none;
+}
+.footer__list__li{
+    color: white;
+}
+.footer__contInput{
+    padding-top: 2em;
+}
+.footer__input{
+    background-color: rgba(0,0,0,0.2);
+    border: 1px solid blue;
+    padding: 0.5em;
+}
+.footer__button{
+    background-color: #1625B7;
+    border: none;
+    padding: 0.5em;
+    color: blanchedalmond;
+}
+.footer__contacto__parrafo{
+    color: white;
+    padding-bottom: 2em;
+}
+.footer__correo__contacto{
+    color:  #1625B7;
+    font-family: 'Timmana', sans-serif;
+    font-size: 1.5em;
+}
+.footer__copyright{
+    width: 100%;
+    padding-top: 2em;
+}
+
+@media (max-width: 400px) {
+    .footer__contacto{
+        width: 100%;
+        }
+        .footer__informacion{
+            width: 100%;
+            display: none;
+        }
+        .footer_subcripcion{
+            width: 100%;
+            padding-bottom: 3vh;
+        }
+  }

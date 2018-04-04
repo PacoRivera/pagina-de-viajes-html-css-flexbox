@@ -1,0 +1,24 @@
+.contenedor-destinos{
+
+}
+.destinos__tituloDescripcion{
+    text-align: center;
+}
+.titulo__destinos{
+    font-family: 'Sriracha', cursive;
+    font-size: 3em;
+}
+.descripcion__destinos{
+    padding: 0 25% 0 25%;
+    font-size: 1.3em;
+
+}
+
+
+@media (max-width: 400px) {
+    .descripcion__destinos{
+        padding: 0 10% 0 10%;
+        font-size: 1.3em;
+    
+    }
+  }

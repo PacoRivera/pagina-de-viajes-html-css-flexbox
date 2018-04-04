@@ -1,0 +1,29 @@
+.destinos__cards{
+ display: flex;
+ flex-wrap: wrap;
+justify-content: space-evenly;
+}
+.contenedor-card{
+    width: 25%;
+    margin:0 1vw;
+    border: rgba(9, 143, 214, 0.8) 2px solid;
+    border-radius: 5px;
+}
+/* .contenedor-card {
+ flex-grow: 1;
+ transition: flex-grow .3s;
+-webkit-transition: flex-grow .3s;
+} */
+
+
+.card__informacion{
+
+}
+
+
+@media (max-width: 400px) {
+  .contenedor-card{
+    width: 100%;
+    margin:0 5vw;
+  }
+}

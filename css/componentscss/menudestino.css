@@ -10,18 +10,23 @@
 }
 .menuDestino{
     text-align: center;
+    z-index: 2;
     width: 15%;
     height: 8rem;
     border: rgba(125, 204, 245, 0.8) 1px solid;
     box-shadow: 0 0 6px 3px rgba(0,0,0,0.2);
     margin-bottom: 2rem;
+    cursor: pointer;
 }
-.menuDestino:hover{
-    border: #337ab7 1px solid;
+.menuDestino:hover {
+    border: rgba(9, 143, 214, 0.8) 2px solid;
 }
 .menuDestino__titulo{
     height: 50%;
-    background-color: rgba(125, 204, 245, 1);
+    font-family: 'Timmana', sans-serif;
+    font-size: 1.3em;
+    color: white;
+    
 
 }
 .menuDestino__descripcion{
@@ -35,6 +40,28 @@
     align-items: center;
     justify-content: center;
 }
+
+.menu__destino__sol{
+    background:linear-gradient( rgba(51, 122, 183, 0.7) 100%,rgba(51, 122, 183, 0.7)100%),url('../../assets/playa.jpg');
+    background-size: cover;
+}
+.menu__destino__natural{
+    background:linear-gradient( rgba(51, 122, 183, 0.7) 100%,rgba(51, 122, 183, 0.7)100%),url('../../assets/bosque.jpg');
+    background-size: cover;
+}
+.menu__destino__cultural{
+    background:linear-gradient( rgba(51, 122, 183, 0.7) 100%,rgba(51, 122, 183, 0.7)100%),url('../../assets/historico.jpg');
+    background-size: cover;
+}
+.menu__destino__metro{
+    background:linear-gradient( rgba(51, 122, 183, 0.7) 100%,rgba(51, 122, 183, 0.7)100%),url('../../assets/metro.jpg');
+    background-size: cover;
+}
+.menu__destino__mapa{
+    background:linear-gradient( rgba(51, 122, 183, 0.7) 100%,rgba(51, 122, 183, 0.7)100%),url('../../assets/maps.png');
+    background-size: cover;
+}
+
 
 @media (max-width: 400px) {
     .menuDestino{

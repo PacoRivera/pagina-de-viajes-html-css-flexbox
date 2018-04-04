@@ -1,6 +1,7 @@
 .contenedor-conocenos{
     display: flex;
-    padding: 10rem 5rem 10rem 5rem;
+    flex-wrap: wrap;
+    padding: 5rem 5rem 10rem 5rem;
     align-items: center;
 }
 .conocenos__contImg{
@@ -33,3 +34,21 @@
     font-family: 'Timmana', sans-serif;
     font-size: 1.8em;
 }
+
+
+@media (max-width: 400px) {
+    .conocenos__contImg{
+        width: 100%;
+    }
+    .conocenos__descripcion{
+        width: 100%;
+        padding-top: 5vh;
+        padding-left: 0;
+    }
+    .conocenos__imgDescripcion__parrafo{
+        padding: 5vh 2vw 5vh 2vw;
+        text-align: left;
+        font-family: 'Timmana', sans-serif;
+        font-size:1.3em;
+    }
+  }
