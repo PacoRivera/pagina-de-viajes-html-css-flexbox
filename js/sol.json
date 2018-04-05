@@ -1,0 +1,33 @@
+{
+    "0":{
+		"nombre" : "Cancún",
+		"diaLimite" : "26",
+		"mesLimite" : "abril",
+		"fraseDestino": "Disfruta del mejor clima",
+		"descripcion": "Es una ciudad en el estado de Quintana Roo, siendo cabecera del municipio de Benito Juárez, se ubica en el oriente de México, a más de 1700 km de la Ciudad de México.",
+		"precio":"700 USD",
+		"imagen":"http://webcamsdemexico.com/hostadimgs/cancun6_01.jpg",
+		"oferta": "Oferta"
+	},
+	"1":{
+		"nombre" : "Acapulco",
+		"diaLimite" : "26",
+		"mesLimite" : "abril",
+		"fraseDestino": "Disfruta la playa mas popular",
+		"descripcion": " Es una ciudad y puerto mexicano ubicado en el estado de Guerrero, en la costa sur del país, a 379 kilómetros de la Ciudad de México.",
+		"precio":"500 USD",
+		"imagen":"https://a.travel-assets.com/findyours-php/viewfinder/images/res60/137000/137742-Acapulco-And-Vicinity.jpg",
+		"oferta": "----"
+	},
+	"2":{
+		"nombre" : "Playa de Las Catedrales",
+		"diaLimite" : "20",
+		"mesLimite" : "abril",
+		"fraseDestino": "Conoce una de las mejores playas de España",
+		"descripcion": "La playa de Las Catedrales es el nombre turístico de la playa de Aguas Santas, situada en el municipio gallego de Ribadeo, en la costa de la provincia de Lugo, España, sobre el mar Cantábrico.​",
+		"precio":"650 USD",
+		"imagen":"https://i1.wp.com/www.megustagalicia.com/wp-content/uploads/2016/02/catedrales2-1.jpg?fit=960%2C509",
+		"oferta": "Oferta"
+    }
+  
+}

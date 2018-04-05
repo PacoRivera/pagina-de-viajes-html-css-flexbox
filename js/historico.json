@@ -1,0 +1,33 @@
+{
+    "0":{
+		"nombre" : "Barcelona",
+		"diaLimite" : "12",
+		"mesLimite" : "abril",
+		"fraseDestino": "Lleno de historia",
+		"descripcion": "La Edad Media, el arte Gótico, las edificaciones Modernistas de comienzos del siglo XX o las más innovadoras vanguardias arquitectónicas del siglo XX y XXI tienen un lugar para ser admiradas en el destino Barcelona.",
+		"precio":"700 USD",
+		"imagen":"https://espanarusa.com/files/autoupload/94/84/67/xllspuz5392644.jpg",
+		"oferta": "Oferta"
+	},
+	"1":{
+		"nombre" : "Venecia",
+		"diaLimite" : "12",
+		"mesLimite" : "Mayo",
+		"fraseDestino": "Conoce cada Rincón",
+		"descripcion": " La capital de la región de Véneto en el norte de Italia. No tiene caminos, sino solo canales, incluida la vía pública del Gran Canal, bordeada de palacios renacentistas y góticos.",
+		"precio":"600 USD",
+		"imagen":"http://images.nationalgeographic.com.es/medio/2018/02/19/venecia-puente-rialto_80a555c5.jpg",
+		"oferta": "----"
+	},
+	"2":{
+		"nombre" : "Monte Albán",
+		"diaLimite" : "20",
+		"mesLimite" : "abril",
+		"fraseDestino": "Un Alta Aventura",
+		"descripcion": "Monte Albán es un sitio arqueológico localizado a 10 km de la ciudad de Oaxaca de Juárez​",
+		"precio":"650 USD",
+		"imagen":"http://revistatucan.com/wp-content/uploads/2012/12/Monte-Alban-3.jpg",
+		"oferta": "Oferta"
+    }
+  
+}

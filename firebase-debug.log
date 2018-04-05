@@ -1,0 +1,69 @@
+[debug] [2018-04-04T00:52:47.488Z] ----------------------------------------------------------------------
+[debug] [2018-04-04T00:52:47.495Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2018-04-04T00:52:47.495Z] CLI Version:   3.18.0
+[debug] [2018-04-04T00:52:47.496Z] Platform:      linux
+[debug] [2018-04-04T00:52:47.496Z] Node Version:  v9.9.0
+[debug] [2018-04-04T00:52:47.496Z] Time:          Tue Apr 03 2018 19:52:47 GMT-0500 (CDT)
+[debug] [2018-04-04T00:52:47.496Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-04T00:52:47.521Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-04T00:52:47.521Z] > authorizing via signed-in user
+[debug] [2018-04-04T00:52:47.526Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/proyecto-travels  
+  
+ Tue Apr 03 2018 19:52:47 GMT-0500 (CDT)
+[debug] [2018-04-04T00:52:48.184Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-04T00:52:48.186Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/proyecto-travels/tokens  
+  
+ Tue Apr 03 2018 19:52:48 GMT-0500 (CDT)
+[debug] [2018-04-04T00:52:48.592Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-04T00:52:48.596Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/proyecto-travels  
+  
+ Tue Apr 03 2018 19:52:48 GMT-0500 (CDT)
+[debug] [2018-04-04T00:52:48.959Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/pacorivera/Documentos/Geekstravels'...
+[info] 
+[debug] [2018-04-04T00:52:48.968Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/778203276153/clients/_:getWebAppConfig  
+  
+ Tue Apr 03 2018 19:52:48 GMT-0500 (CDT)
+[debug] [2018-04-04T00:52:49.395Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-04T00:53:02.697Z] ----------------------------------------------------------------------
+[debug] [2018-04-04T00:53:02.703Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2018-04-04T00:53:02.703Z] CLI Version:   3.18.0
+[debug] [2018-04-04T00:53:02.703Z] Platform:      linux
+[debug] [2018-04-04T00:53:02.703Z] Node Version:  v9.9.0
+[debug] [2018-04-04T00:53:02.704Z] Time:          Tue Apr 03 2018 19:53:02 GMT-0500 (CDT)
+[debug] [2018-04-04T00:53:02.704Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-04T00:53:02.756Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-04T00:53:02.757Z] > authorizing via signed-in user
+[debug] [2018-04-04T00:53:02.761Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/proyecto-travels  
+  
+ Tue Apr 03 2018 19:53:02 GMT-0500 (CDT)
+[debug] [2018-04-04T00:53:05.671Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-04T00:53:05.673Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/proyecto-travels/tokens  
+  
+ Tue Apr 03 2018 19:53:05 GMT-0500 (CDT)
+[debug] [2018-04-04T00:53:06.118Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-04T00:53:06.122Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/proyecto-travels  
+  
+ Tue Apr 03 2018 19:53:06 GMT-0500 (CDT)
+[debug] [2018-04-04T00:53:06.570Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/pacorivera/Documentos/Geekstravels'...
+[info] 
+[debug] [2018-04-04T00:53:06.576Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/778203276153/clients/_:getWebAppConfig  
+  
+ Tue Apr 03 2018 19:53:06 GMT-0500 (CDT)
+[debug] [2018-04-04T00:53:07.031Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2018-04-04T00:53:07.067Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/778203276153/clients/_:getWebAppConfig  
+  
+ Tue Apr 03 2018 19:53:07 GMT-0500 (CDT)
+[debug] [2018-04-04T00:53:07.437Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5004
+

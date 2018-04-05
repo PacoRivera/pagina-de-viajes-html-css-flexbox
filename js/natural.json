@@ -1,0 +1,33 @@
+{
+    "0":{
+		"nombre" : "Rio de Janeiro",
+		"diaLimite" : "30",
+		"mesLimite" : "abril",
+		"fraseDestino": "Urbano-Paradiciaco",
+		"descripcion": "Río de Janeiro es una enorme ciudad costera de Brasil, famosa por sus playas de Copacabana e Ipanema, la estatua del Cristo Redentor de 38 m de alto sobre el cerro del Corcovado.",
+		"precio":"900 USD",
+		"imagen":"http://expressovans.com.br/wp-content/uploads/2017/06/RJ-Cidade-2.jpg",
+		"oferta": "Oferta"
+	},
+	"1":{
+		"nombre" : "Bahía de Halong",
+		"diaLimite" : "15",
+		"mesLimite" : "Mayo",
+		"fraseDestino": "Este paraiso te encantara",
+		"descripcion": "La bahía de Ha-Long, en el noreste de Vietnam, es conocida por sus aguas color esmeralda y sus miles de altas islas de piedra caliza con selvas tropicales en sus cimas.",
+		"precio":"800 USD",
+		"imagen":"https://blog.muchoviaje.com/wp-content/uploads/2014/07/halong_vietnam-1024x752.jpg",
+		"oferta": "----"
+	},
+	"2":{
+		"nombre" : "Patagonia",
+		"diaLimite" : "20",
+		"mesLimite" : "abril",
+		"fraseDestino": "Llamado a la aventura",
+		"descripcion": "Por Patagonia se conoce a una extensa región histórica en América del Sur que comparten Argentina y Chile con la Cordillera de los Andes por medio. Solo su nombre ya evoca aventura.",
+		"precio":"900 USD",
+		"imagen":"http://www.nationalgeographic.com.es/medio/2018/01/29/patagonia_c9bb0286_1200x799.jpg",
+		"oferta": "Oferta"
+    }
+  
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GeeksHubs-Travels</title>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+  <div id="contendor">
+    <table class="egt">
+
+      <tr>
+
+        <th>Nombre</th>
+
+        <th>Escuela</th>
+
+
+      </tr>
+
+    </table>
+  </div>
+
+
+  <script src="jquery-3.3.1.min.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBxYRQAvvvl_9CtQAbJd1gOXSiRQG1tVSA",
+      authDomain: "proyecto-travels.firebaseapp.com",
+      databaseURL: "https://proyecto-travels.firebaseio.com",
+      projectId: "proyecto-travels",
+      storageBucket: "proyecto-travels.appspot.com",
+      messagingSenderId: "778203276153"
+    };
+    firebase.initializeApp(config);
+
+    //instanciamos al servicio de base de datos
+    var database = firebase.database();
+
+    var alumnosRef = database.ref('alumnos');
+
+    // alumnosRef.push({
+    //   name: 'paco',
+    //   school: 'geekshubs'
+    // });
+    // alumnosRef.push({
+    //   name: 'miguek',
+    //   school: 'geekshubs'
+    // });
+    // alumnosRef.push({
+    //   name: 'juan',
+    //   school: 'geekshubs'
+    // });
+
+    // alumnosRef.child('-L9DBqtoPeixuewmUMha').update({
+    //   name:'jorge'
+    // });
+
+    //  alumnosRef.child('-L9DaT0kSgzvoCooZGgM').remove();
+
+    // alumnosRef.remove();
+
+    // alumnosRef.on('value', (snapshot) =>{
+    //   console.log(snapshot.val(),'value');
+    // });
+    var crearTabla = function (clave, valor) {
+      let tr = '<tr>';
+
+      tr += ' <td>' + valor.name+ '</td>';
+
+      tr += ' <td>' +valor.school + '</td>';
+
+      tr += '</tr>';
+
+      $('.egt').append(tr);
+    }
+
+
+    alumnosRef.on('child_added', (snapshot) => {
+      var datos = snapshot.val();
+     console.log(datos) 
+        crearTabla(snapshot.key, datos);
+    
+
+    });
+
+
+// alumnosRef.on('child_changed', (snapshot) =>{
+//   console.log(snapshot.val(),'child_changed');
+// });
+
+alumnosRef.on('child_removed', (snapshot) =>{
+  console.log(snapshot.val(),'child_removed');
+
+});
+
+  </script>
+
+</body>
+
+</html>

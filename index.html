@@ -8,7 +8,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://i.icomoon.io/public/temp/88e7be6e66/UntitledProject/style.css">
+  <link rel="stylesheet" href="https://i.icomoon.io/public/temp/ec2f9622d3/UntitledProject/style.css">
   <link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Timmana" rel="stylesheet">
 </head>
@@ -89,113 +89,36 @@
   <div class="contenedor-menuDestinos">
     <div class="menuDestino">
 
-      <div class="menuDestino__titulo  menu__destino__sol">Sol & Playa</div>
+      <div class="menuDestino__titulo  menu__destino__sol " 
+      data-content-url="vistasDestinos/solyPlaya.html"
+      onclick="load(this, document.getElementById('content-wrapper-destinos'))">Sol & Playa</div>
 
-      <div class="menuDestino__descripcion">asdfasdfasdf</div>
+      <div class="menuDestino__descripcion">CANCUN</div>
     </div>
     <div class="menuDestino">
-      <div class="menuDestino__titulo  menu__destino__natural">Natural & Exotico</div>
-      <div class="menuDestino__descripcion">asdfasdfasdf</div>
+      <div class="menuDestino__titulo  menu__destino__natural"data-content-url="vistasDestinos/naturalyExotico.html"
+      onclick="load(this, document.getElementById('content-wrapper-destinos'))">Natural & Exotico</div>
+      <div class="menuDestino__descripcion">BOGOTA - RIO DE JANEIRO</div>
     </div>
     <div class="menuDestino">
-      <div class="menuDestino__titulo  menu__destino__cultural">Cultural & Historico</div>
-      <div class="menuDestino__descripcion">asdfasdfasdf</div>
+      <div class="menuDestino__titulo  menu__destino__cultural"data-content-url="vistasDestinos/culturalHistorico.html"
+      onclick="load(this, document.getElementById('content-wrapper-destinos'))">Cultural & Historico</div>
+      <div class="menuDestino__descripcion">BARCELONA</div>
     </div>
     <div class="menuDestino">
-      <div class="menuDestino__titulo  menu__destino__metro">Metropolitano</div>
-      <div class="menuDestino__descripcion">asdfasdfasdf</div>
+      <div class="menuDestino__titulo  menu__destino__metro"data-content-url="vistasDestinos/metro.html"
+      onclick="load(this, document.getElementById('content-wrapper-destinos'))">Metropolitano</div>
+      <div class="menuDestino__descripcion">CDMX - BUENOS AIRES</div>
     </div>
     <div class="menuDestino">
-      <div class="menuDestino__titulo  menu__destino__mapa">Mapa</div>
-      <div class="menuDestino__descripcion">asdfasdfasdfasd</div>
+      <div class="menuDestino__titulo  menu__destino__mapa"data-content-url="vistasDestinos/mapa.html"
+      onclick="load(this, document.getElementById('content-wrapper-destinos'))">Mapa</div>
+      <div class="menuDestino__descripcion">COBERTURA GH TRAVELS</div>
     </div>
   </div>
 
-  <div class="contenedor-destinos">
-    <div class="destinos__tituloDescripcion">
-      <div class="tituloDescripcion__sol">
-        <h2 class="titulo__destinos">"Sol & Playa"</h2>
-        <p class="descripcion__destinos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos expedita optio fugit sit ullam perferendis neque a fuga sunt unde eaque laboriosam odio tempora et, esse accusamus commodi magnam libero.</p>
-      </div>
-    </div>
-    <!-- <div class="destinos__cards">
-      
-      <div class="contenedor-card " onclick="grow()">
-    
-        <div class="card__img">
-          <img src="assets/destino-img.jpg" alt="destino">
-        </div>
-      
-        <div class="card__informacion">
-          <div class="panel-group container__info__card" id="accordion" role="tablist" aria-multiselectable="true">
-            <div class="panel panel-default ">
-              <div class="panel-heading" role="tab" id="headingOne">
-                <h4 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Collapsible Group Item #1
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseOne" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingOne">
-                <div class="panel-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingTwo">
-                <h4 class="panel-title">
-                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Collapsible Group Item #2
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                <div class="panel-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingThree">
-                <h4 class="panel-title">
-                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Collapsible Group Item #3
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                <div class="panel-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
+  <div id="content-wrapper-destinos">
 
-      <div class="contenedor-card">
-        <div class="card__img">
-          <img src="assets/destino-img.jpg" alt="destino">
-        </div>
-        <div class="card__informacion">
-          <h3 class="card__titulo">Madrid-España</h3>
-          <p class="card__descripcion">Conoce el lugar de tus sueños</p>
-        </div>
-      </div>
-
-      <div class="contenedor-card">
-        <div class="card__img">
-          <img src="assets/destino-img.jpg" alt="destino">
-        </div>
-        <div class="card__informacion">
-          <h3 class="card__titulo">Madrid-España</h3>
-          <p class="card__descripcion">Conoce el lugar de tus sueños</p>
-        </div>
-      </div>
-
-    </div> -->
   </div>
 
   <div class="contenedor-conocenos">
@@ -265,7 +188,10 @@
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
   <script src="js/main.js"></script>
+  
+  
 
 </body>
 
